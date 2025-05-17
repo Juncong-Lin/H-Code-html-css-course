@@ -1,0 +1,30 @@
+button{
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.subscribe-button{
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+.join-button{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 200);
+  border-color: rgb(0, 0, 200);
+  border-radius: 5px;
+  padding: 15px 20px;
+  cursor: pointer;
+  border-style: solid;  
+}
+.tweet-button{
+  background-color: rgb(3, 135, 223);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 20px;
+  cursor: pointer;
+} 

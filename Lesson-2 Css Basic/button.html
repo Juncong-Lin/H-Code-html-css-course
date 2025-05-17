@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+    <link rel="stylesheet" href="button.css">
+</head>
+
+<body>
+
+    <button class="subscribe-button">SUBSCRIBE</button>
+    <button class="join-button">JOIN</button>
+    <button class="tweet-button">Tweet</button>
+
+    <script>
+        const button = document.querySelector('button');
+        button.addEventListener('click', function() {
+            alert('Button clicked');
+        });
+        button.addEventListener('mouseover', function() {
+            console.log('Mouse over');
+        });
+        button.addEventListener('mouseout', function() {
+            console.log('Mouse out');
+        });
+    </script>
+</body>
